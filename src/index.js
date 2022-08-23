@@ -2,15 +2,17 @@ import React from "react";
 import ReactDOM from "react-dom/client";
 import "./index.css";
 // import Memo from "./pages/Memo";
-import ExchangeConverter from "./pages/ExchangeConverter";
-import Counter from "./pages/Counter";
+import Header from "./components/Header";
+// import ExchangeConverter from "./pages/ExchangeConverter";
+// import Counter from "./pages/Counter";
 import reportWebVitals from "./reportWebVitals";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
-    <ExchangeConverter />
-    <Counter />
+    <Header />
+    {/* <ExchangeConverter />
+    <Counter /> */}
     {/* <Memo /> */}
   </React.StrictMode>
 );
