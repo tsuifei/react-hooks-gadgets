@@ -1,5 +1,5 @@
 import { Routes, Route } from "react-router-dom";
-import Counter from "../pages/Counter"
+import Counter from "../pages/Counter";
 import Memo from "../pages/Memo";
 import NavLink from "./NavLink";
 
@@ -13,7 +13,6 @@ const Header = () => {
         <Route path="/counter" element={<Counter />} />
         <Route path="/memo" element={<Memo />} />
       </Routes>
-      
     </div>
   );
 };
