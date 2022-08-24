@@ -195,5 +195,8 @@ import { Routes, Route, Link } from "react-router-dom";
 - 如果要把成本放到 gitHub 上展示，建議使用 hashRouter，否則 gitHub 需額外設定。（待查）
 
 ## 部署至 github pages
+0. 安裝套件 `npm install --save gh-pages`
+1. 開 Github Repo
+2. 在資料夾連接本地的 Repo
 [部署流程](https://create-react-app.dev/docs/deployment/#github-pages)
 

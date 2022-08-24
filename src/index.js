@@ -4,16 +4,16 @@ import "./index.css";
 // import Memo from "./pages/Memo";
 import App from "./App";
 
-import { BrowserRouter } from "react-router-dom";// import ExchangeConverter from "./pages/ExchangeConverter";
+import { HashRouter } from "react-router-dom";// import ExchangeConverter from "./pages/ExchangeConverter";
 // import Counter from "./pages/Counter";
 import reportWebVitals from "./reportWebVitals";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
-    <BrowserRouter>
+    <HashRouter>
     <App />
-    </BrowserRouter>
+    </HashRouter>
     {/* <ExchangeConverter />
     <Counter /> */}
     {/* <Memo /> */}
