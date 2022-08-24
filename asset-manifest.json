@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/react-hooks-gadgets/static/css/main.dc862522.css",
-    "main.js": "/react-hooks-gadgets/static/js/main.d291a170.js",
+    "main.css": "/react-hooks-gadgets/static/css/main.0a0ea967.css",
+    "main.js": "/react-hooks-gadgets/static/js/main.aca2900f.js",
     "static/js/787.a5ba2a94.chunk.js": "/react-hooks-gadgets/static/js/787.a5ba2a94.chunk.js",
     "index.html": "/react-hooks-gadgets/index.html",
-    "main.dc862522.css.map": "/react-hooks-gadgets/static/css/main.dc862522.css.map",
-    "main.d291a170.js.map": "/react-hooks-gadgets/static/js/main.d291a170.js.map",
+    "main.0a0ea967.css.map": "/react-hooks-gadgets/static/css/main.0a0ea967.css.map",
+    "main.aca2900f.js.map": "/react-hooks-gadgets/static/js/main.aca2900f.js.map",
     "787.a5ba2a94.chunk.js.map": "/react-hooks-gadgets/static/js/787.a5ba2a94.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.dc862522.css",
-    "static/js/main.d291a170.js"
+    "static/css/main.0a0ea967.css",
+    "static/js/main.aca2900f.js"
   ]
 }
