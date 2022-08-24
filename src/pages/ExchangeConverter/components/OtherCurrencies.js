@@ -8,8 +8,7 @@ const OtherCurrencies = (props) => {
   // const [eur, setEur] = useState(0.032);
   const jpy = 4.486;
   const usd = 0.033;
-  const eur= 0.032;
-
+  const eur = 0.032;
 
   return (
     <>

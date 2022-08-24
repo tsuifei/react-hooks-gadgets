@@ -159,3 +159,41 @@ async function fetchData() {
 點擊<Item /> 標籤會自動開啟到 Item.js 的 componont 是因為有裝外掛嗎？怎麼辦到的。感謝～
 
 沒有裝外掛唷，mac的話按著command鍵然後點Component就可以跳過去了，windows的話應該是control。
+
+## React Router 路由
+### 安裝 React router 套件
+```javascript
+// react router
+npm install react-router-dom@6
+```
+### 引入專案主頁面
+在`src/index.js`裡，將 React Router 引入專案的入口點並使用 Router 標籤將 `<App />`包住。
+```javascript
+// src/index.js
+
+import { BrowserRouter } from "react-router-dom";
+
+<BrowserRouter>
+  <App />
+</BrowserRouter>
+
+```
+### 引入入口文件（通常是App.js）
+將所需的router 方法以解構方式引入入口文件內，並在文件內加入 Router 標籤，如同是註冊
+```javascript
+// src/App.js
+import { Routes, Route, Link } from "react-router-dom";
+{/* 註冊路由表 */}
+<Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="about" element={<About />} />
+      </Routes>
+
+```
+- 有使用到`<Link></Link>` 就需載入 Link: `import { Link } from "react-router-dom";`
+
+- 如果要把成本放到 gitHub 上展示，建議使用 hashRouter，否則 gitHub 需額外設定。（待查）
+
+## 部署至 github pages
+[部署流程](https://create-react-app.dev/docs/deployment/#github-pages)
+
