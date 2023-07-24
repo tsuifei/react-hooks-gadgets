@@ -23,4 +23,5 @@ yarn-debug.log*
 yarn-error.log*
 
 # 個人筆記
+/x_note
 note.md 

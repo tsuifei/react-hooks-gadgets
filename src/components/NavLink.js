@@ -15,6 +15,9 @@ const NavLink = () => {
         <Button size="sm" type="basic">
           <Link to="/Memo">Memo</Link>
         </Button>
+        <Button size="sm" type="basic">
+          <Link to="/OcMaisonJungle">OcMaisonJungle</Link>
+        </Button>
       </nav>
     </div>
   );
